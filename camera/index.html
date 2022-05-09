@@ -32,5 +32,29 @@
         </li>
       </ul>
     </nav>
+
+    <div class="container text-center">
+      <h4 class="mb-3">Camera test</h4>
+
+      <div class="mb-3">
+        <button
+          type="button"
+          class="btn btn-success"
+          onclick="startTestCamera()"
+        >
+          Start
+        </button>
+
+        <button type="button" class="btn btn-danger" onclick="stopTestCamera()">
+          Stop
+        </button>
+      </div>
+
+      <div class="camera">
+        <video id="video">Not support video</video>
+      </div>
+    </div>
   </body>
+
+  <script src="./index.js"></script>
 </html>
